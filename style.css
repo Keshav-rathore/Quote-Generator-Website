@@ -1,0 +1,93 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    border: 2px solid #ddd;
+}
+
+#quote-box {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    background: url('./assets/background.jpeg') no-repeat center/cover;
+    backdrop-filter: blur(20px); 
+}
+
+blockquote {
+    font-size: 20px;
+    font-weight: bold;
+    color:whitesmoke;
+    margin:10px;
+    padding:25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color:whitesmoke;
+    text-align: end;
+}
+
+
+#button-bx {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+
+#button-bx img {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#button-bx img:hover {
+    transform: scale(1.1);
+    background: #f8f9fa;
+    border-color: #bbb;
+}
+
+
+#next-quote {
+    background: linear-gradient(to right, #a97bdb, #2575fc);
+    color: white;
+    margin-top:20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+
+#next-quote:hover {
+    background: linear-gradient(to right, #2575fc, #6a11cb);
+}
