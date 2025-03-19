@@ -1,7 +1,8 @@
-/* General Styles */
+/*Import Playfair Display font from google font*/
+
 body {
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+     font-family: 'Playfair Display', serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef); /*Use gradient for smoother effect*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +27,7 @@ body {
     margin-bottom: 10px;
     border: 2px solid antiquewhite;
     border-radius: 10px;
-    background: url('./assets/background.jpeg') no-repeat center/cover;
+    background: url('./assets/background.jpeg') no-repeat center/cover; /*fill the background with image*/
     backdrop-filter: blur(20px); 
 }
 
