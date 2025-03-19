@@ -7,32 +7,34 @@
     <title>Quote-Generator</title>
     <link rel="shortcut icon" href="./assets/Website-Icon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <!-- CDN link to use the html2canvas library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 </head>
 
 <body>
-    <div id="container">
+    <div id="container"> <!-- Main container -->
         <h2>Quote of the day</h2>
-        <div id="quote-box">
+        <div id="quote-box"> 
+            <!-- use  Semantic tag 'blockquote' to enhance the SEO -->
             <blockquote id="displayquote">
                 <p id="quote"></p>
                 <cite id="author"></cite>
             </blockquote> 
         </div>
+        
         <div>
             <button type="button" id="next-quote">Next Quote</button>
         </div>
+        
         <div id="button-bx">
             <div id="button-bx">
                 <img src="./assets/Copy-Icon.png" id="copybtn" aria-label="Copy Quote" alt="Copy" title="Copy Quote">
                 <img src="./assets/Download-Icon.png" id="Downloadbtn" aria-label="Download Quote" alt="Download" title="Download">
                 <img src="./assets/Share-Icon.png" id="tweetbtn" aria-label="Tweet Quote" alt="Tweet" title="Share on Twitter">
-            </div>
-            
+            </div>  
         </div>
     </div>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 
 </html>
